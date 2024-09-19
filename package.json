@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
     "koa": "^2.15.3",
     "koa-bodyparser": "^4.4.1",
     "koa-router": "^13.0.1",
@@ -32,6 +33,7 @@
     "@nuxt/eslint": "^0.5.2",
     "@nuxtjs/color-mode": "^3.4.4",
     "@pinia/nuxt": "^0.5.4",
+    "@types/bcrypt": "^5.0.2",
     "@unocss/eslint-config": "^0.62.3",
     "@unocss/nuxt": "^0.62.3",
     "@vite-pwa/nuxt": "^0.10.1",
@@ -40,9 +42,10 @@
     "element-plus": "^2.8.3",
     "eslint": "^9.9.1",
     "eslint-plugin-format": "^0.1.2",
+    "node-sass": "^9.0.0",
     "nuxt": "^3.13.0",
     "pinia": "^2.2.2",
-    "sass-loader": "^16.0.1",
+    "sass": "^1.79.1",
     "typescript": "^5.5.4",
     "vue-tsc": "^2.0.19"
   }

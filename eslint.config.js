@@ -7,5 +7,11 @@ export default nuxt(
       unocss: true,
       formatters: true,
     },
+    {
+      rules: {
+        'ts/no-this-alias': 'off',
+        'no-console': 'off',
+      },
+    },
   ),
 )

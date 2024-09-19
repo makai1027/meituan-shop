@@ -39,6 +39,7 @@ export default defineNuxtConfig({
       routes: ['/'],
       ignore: ['/hi'],
     },
+    plugins: ['~/server/plugins/mongo.ts'],
   },
 
   app: {
@@ -64,7 +65,9 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
-
+  runtimeConfig: {
+    mongoUrl: 'mongodb://localhost/nitro',
+  },
   features: {
     // For UnoCSS
     inlineStyles: false,
